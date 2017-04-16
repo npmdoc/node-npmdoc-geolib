@@ -1,1 +1,39 @@
-{     "devDependencies": {         "geolib": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmdoc-geolib",     "homepage": "https://github.com/npmdoc/node-npmdoc-geolib",     "repository": {         "type": "git",         "url": "https://github.com/npmdoc/node-npmdoc-geolib.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "api documentation for [geolib (v2.0.22)](http://github.com/manuelbieh/Geolib) [![npm package](https://img.shields.io/npm/v/npmdoc-geolib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-geolib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-geolib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-geolib)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "geolib": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-geolib",
+    "keywords": [
+        "documentation",
+        "geolib"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_geolib.js",
+    "name": "npmdoc-geolib",
+    "nameAlias": "npmdoc_geolib",
+    "nameOriginal": "npmdoc-geolib",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-geolib.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.2"
+}
