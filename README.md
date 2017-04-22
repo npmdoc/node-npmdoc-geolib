@@ -1,7 +1,12 @@
-# api documentation for  [geolib (v2.0.22)](http://github.com/manuelbieh/Geolib)  [![npm package](https://img.shields.io/npm/v/npmdoc-geolib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-geolib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-geolib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-geolib)
+# npmdoc-geolib
+
+#### api documentation for  [geolib (v2.0.22)](http://github.com/manuelbieh/Geolib)  [![npm package](https://img.shields.io/npm/v/npmdoc-geolib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-geolib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-geolib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-geolib)
+
 #### Library to perform geo specific tasks
 
 [![NPM](https://nodei.co/npm/geolib.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/geolib)
+
+- [https://npmdoc.github.io/node-npmdoc-geolib/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-geolib/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-geolib/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-geolib/build/apidoc.html)
 
@@ -81,19 +86,10 @@
     "scripts": {
         "test": "grunt travis --verbose"
     },
-    "version": "2.0.22"
+    "version": "2.0.22",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module geolib](#apidoc.module.geolib)
-
-
-
-# <a name="apidoc.module.geolib"></a>[module geolib](#apidoc.module.geolib)
 
 
 
